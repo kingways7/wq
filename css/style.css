@@ -1,0 +1,65 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+ 	background-image: url(bg.jpg);
+   background-position: 50% 0;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+a{
+	color: #000;
+ }
+
+.shapka {
+	display: inline-block;
+  background-color: #aaa;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 50px;
+  border: 2px solid #043;
+  }
+
+
+.shapka:hover{
+	background: #f5cf53;
+	color: green;
+   }
+
+
+footer{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   } 
+button{
+      background: #00ff81;
+      width: 500px;
+      height: 70px;
+      border-radius: 20px;
+      color: yellow;
+      font-size: 50px;
+      
+
+}
